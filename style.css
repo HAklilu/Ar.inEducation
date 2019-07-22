@@ -1,1 +1,18 @@
-style.css
+<style>
+.parallax { 
+ 
+  background-image: url("img_parallax.jpg");
+
+  
+  height: 500px; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax"></div>
